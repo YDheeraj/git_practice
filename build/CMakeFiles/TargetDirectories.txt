@@ -1,0 +1,3 @@
+/home/sp.mridu/DY_workspace/git_practice/build/CMakeFiles/main.dir
+/home/sp.mridu/DY_workspace/git_practice/build/CMakeFiles/edit_cache.dir
+/home/sp.mridu/DY_workspace/git_practice/build/CMakeFiles/rebuild_cache.dir
