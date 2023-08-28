@@ -1,0 +1,80 @@
+From 97947971c76692da67288f4792081d2c5771836f Mon Sep 17 00:00:00 2001
+From: YDheeraj <yadavdheeraj2002@gmail.com>
+Date: Fri, 25 Aug 2023 11:18:51 +0000
+Subject: [PATCH 1/2] changes in branch b1
+
+---
+ build/.ninja_deps                    | Bin 5032 -> 5440 bytes
+ build/.ninja_log                     |   2 ++
+ build/CMakeFiles/main.dir/main.cpp.o | Bin 2688 -> 2880 bytes
+ build/main                           | Bin 17264 -> 17264 bytes
+ 4 files changed, 2 insertions(+)
+
+diff --git a/build/.ninja_deps b/build/.ninja_deps
+index 665f650356defe27fc6883204784be7b2630e948..b7600f132381b8f3f2243b5a3dcb9ba2a92993c2 100644
+GIT binary patch
+delta 27
+hcmZ3Xen4x(3Sqt}j0_D7K+v&Ka*^qr&2mCri~xOp2zvkk
+
+delta 7
+OcmX@0wL*Qv3Sj^Zngb;O
+
+diff --git a/build/.ninja_log b/build/.ninja_log
+index 8790317..ec449c2 100644
+--- a/build/.ninja_log
++++ b/build/.ninja_log
+@@ -1,3 +1,5 @@
+ # ninja log v5
+ 0	100	1692956726068897619	CMakeFiles/main.dir/main.cpp.o	afe480f31821d10d
+ 101	163	1692956726128902570	main	bd2022e46c42e293
++1	102	1692962264104677768	CMakeFiles/main.dir/main.cpp.o	afe480f31821d10d
++102	166	1692962264168682864	main	bd2022e46c42e293
+diff --git a/build/CMakeFiles/main.dir/main.cpp.o b/build/CMakeFiles/main.dir/main.cpp.o
+index c8744174dfbc65e74291ec257256c79171c7f1f8..dcacdeb9137e1c45a3d988a2895d7ab68c896a88 100644
+GIT binary patch
+delta 481
+zcmZn=Js>tggQ<aiqLzZi4+bD;uKmGMue1-u+z%pNfCw<xqw_eJ)9m_#@%4@4u75x>
+z&9#4+CkA)Oq~#YWlw_nTBxfY%rKc)n<|*W*mMbI`CFUh(OuUySlnYYq$S2Uo<jl*)
+zl)=N!F*%I!lO$LeC}Rhb1_DnYW@2DuSUowBsh%-+^FyX`CPP=S6axbnkY)p75Dfxe
+z5DLuagR()C|71Z{amf%QSpg*3n8}W;;*8ys7Xrx%lM8_=ry{8oMp8Koq(*W+lB@`l
+z?2^eBS=AX=PyWfO5BEj_RGtY)gYfFfj%@cC4@_2MH|Nw~g-A9`PGmQqtj{hu`2rjJ
+z<PGc^KsLu@7EXc5A0TW-^~s7H=94EdvrLZRuwh!kHhC6@9g_j$<Xb>0jdAipHnGVD
+loEnT7lOs9pfrifnk`E@|1d<;nOLEzBa<D@zDgs(74*;%KUHbq4
+
+delta 300
+zcmX>g)*w1TgXsX<L@fo*KMX+7T>FP*Vp9h*kU3e6F>Uf1Mv2Kw7~e43O`gak&R8>f
+zB~v}4-DXYZawf)@$%$;@jER#C*~BH&Kzf0I3y6imEC`VeQX^Ra6#>bLAjy_ap2(&S
+zG;}AMzN8&gJON5G0cjAfnas$3pK;>khwSE@4_F|Q9Fr9}%o#6Ee#j_2IhKQGas!71
+zkeA3LJoy4A%j69l8k`rQrf^Mu$YIX(fMK!}rybJ^*2z&Iied6BASK5L)Gs#q1E&U~
+j!emJ<dq#%Ikw9|B<e5Nn#pIh@_M9GU5Mzpfw#x$mGW0<t
+
+diff --git a/build/main b/build/main
+index 621639f548f8d83eec6b97e491f675ffe4a77b13..30788d9533c99e97df55713f89fca7a366d878e5 100755
+GIT binary patch
+delta 647
+zcmey+#`vL)aRUb<=UXNQFnBvzkWruW03(EVV6rFUenA}t2v0}B0nE^uEXlN6WMQI?
+zD))O%mL1#fhv$i}xbntG<lW{MOt*MB9tb%wcpN`iF!_|gGmal1EzPw*Chrhb)cV2r
+z`o?kBKM<im%=Jq9_<&~aPjGNxcoF{Z|Nngk0zj>u$6rKEz9MKWW(E}66#<moSLg^-
+zHUTL4;?v*BvO?14di?S&V8=LyJBB%S{&x&@4DsnzEz@RT2=(aItpn1*o}J%3JFog^
+zKJ{pR!{Kr8FY}A|&3Qseypt68GSc#k6iPBu6_PU&^U_llGV>JjQp**RiW2jZGZ+{c
+zrJ1cgfW~tG@t61i|4#wZB_IC(-vgvufOHCwuKM`@{}mwp97ulw(yE{S{}%y<n+uRO
+z0n%H5bPeO=I0Yp}iOG!$`iv2iH!7%GZU7nwG8P78fQ%R*o(D8G7bNJ&C(y>^%*)1<
+z!NU$z2$HV>;@6V}73GyUftHCPs|o-sVsHV9?EzwrkCTHG-B=BP%9u7E6msU_Y!Gw+
+zsb>hB%&6zj_+)dS-gaijCzCmi^ci&~D;kM13o%q|4mA4CC@Bn#HW07_lMD=Rfix2X
+zA5dqai9X|=$rDZ7fm&{w9B0g(ywKDhXx2khc}B*9$&BXWj1M+TnwxVl8chzg*XMi!
+hHR;LZPJ4Go?a3E`Vu-}U>0r)T0ZmF3n>`)WnE_w9$YlTk
+
+delta 518
+zcmYL`K}Zx~6vw|egE0fT%?_!%EVwg5h=e=KvN}=VesgJeV<DH)I<A5cp6Xzygau_`
+z1<86KbqNy*PqHyfMPVi#EKdaq)=j9`L&CU(c2Gaxj)D(9e(!y}|NrBA&ntmff{Fs_
+zip2a_!5~=b5}Z^^n1$7#W}H--!Tm(Tu=M`I^g`d({>G<L^y`(tc&v4M?qA(@Ytqja
+zrJ{3|SzqJ0q5V+~8j{J01AH4aQPE><qenu#yTdvAaNpr<bynl7W*%WqkMy07PWcZw
+zx1AxUESy2-R&M6v%S((6W@dVpi8r(5y=-|i*Zn&)`B%xT9m=&w?sI*l1&in6PmI6-
+zV-S(A=Ez2&qj^F+CC(B*66c9`iF3O`Y!SZ`{}c7P5Fz?=oOqcyPb~T~zz0Sr#POM7
+z!9Dz9birrbHQM1dcAJr=hYbtLqEg+%>t=`Kc{pZXgOK~mOgH0z6jF;pPECw;BE)V$
+z)y>D=$WTQ!VS$EbqE*&e!ObW3A^hvKv)}J$Y=<bZ04ax)7A)f9WSS&DlIzfqFM3nt
+wwcQ&9;0Sg*RNSy_D<EM$WvNw~e<P|`PNgA$-{|gacPh8l!s#XpZkBh+$B>brMgRZ+
+
+-- 
+2.37.3
+
